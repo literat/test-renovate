@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "github>alma-oss/renovate-config",
+    "github>alma-oss/renovate-config:scheduleWeeklyBusinessHours",
+    "github>alma-oss/renovate-config:groupMajorProdDependencies(npm)",
+    "github>alma-oss/renovate-config:groupNonMajorProdDependencies(npm)",
+    "github>alma-oss/renovate-config:groupAllDevDependencies(npm)",
+    ":dependencyDashboard"
+  ],
+  "enabledManagers": ["npm", "github-actions"],
+  "commitMessagePrefix": "Deps: ",
+  "packageRules": [
+    {
+      "groupName": "Freeze eslint on ^8",
+      "description": "Lock eslint on ^8 until @lmc-eu/eslint-config-base is compatible with eslint 9",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": "^8"
+    },
+    {
+      "groupName": "Lock conventional-changelog-cli on ^3",
+      "description": "Lock conventional-changelog-cli on ^3, because v4 is not compatible with @lmc-eu/conventional-changelog-lmc-github",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["conventional-changelog-cli"],
+      "allowedVersions": "^3"
+    }
+  ]
+}
