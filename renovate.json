@@ -4,7 +4,6 @@
     "github>alma-oss/renovate-config:scheduleWeeklyBusinessHours",
     "github>alma-oss/renovate-config:groupMajorProdDependencies(npm)",
     "github>alma-oss/renovate-config:groupNonMajorProdDependencies(npm)",
-    "github>alma-oss/renovate-config:groupAllDevDependencies(npm)",
     ":dependencyDashboard"
   ],
   "enabledManagers": ["npm", "github-actions"],
@@ -23,6 +22,18 @@
       "matchManagers": ["npm"],
       "matchPackageNames": ["conventional-changelog-cli"],
       "allowedVersions": "^3"
+    },
+    {
+      "groupName": "all dev dependencies",
+      "groupSlug": "all-dev",
+      "matchManagers": ["npm"],
+      "separateMajorMinor": false,
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ]
     }
   ]
 }
