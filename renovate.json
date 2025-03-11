@@ -4,7 +4,7 @@
     "github>alma-oss/renovate-config:scheduleWeeklyBusinessHours",
     "github>alma-oss/renovate-config:groupMajorProdDependencies(npm)",
     "github>alma-oss/renovate-config:groupNonMajorProdDependencies(npm)",
-    "github>literat/renovate-config:groupAllDevDependencies",
+    "github>alma-oss/renovate-config:groupAllDevDependencies(npm)",
     ":dependencyDashboard"
   ],
   "enabledManagers": ["npm", "github-actions"],
