@@ -1605,9 +1605,9 @@
   integrity sha512-kkLTgPKcHL/N7fylhKImfOkxhCmB4uQBfroF3z0+O8qHO4qDZ/KnDGidtdgE4gqfpC/ShFtx1JZINyzCVyMi1g==
 
 "@lmc-eu/spirit-design-tokens@^3.0.2":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@lmc-eu/spirit-design-tokens/-/spirit-design-tokens-3.3.0.tgz#4d625c7b2f82174eb37db475b99f5c0424756ac4"
-  integrity sha512-xsLInnVkOCKgSCJ8W4jZodx/U/kR2WnFro+vHGoQtMhIBBw/HjM6FzuN+cDidtefeIvPYJ26B3P36Slk/vvfYg==
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@lmc-eu/spirit-design-tokens/-/spirit-design-tokens-3.7.1.tgz#8b018b24c227774df6cf39d5c681b625143d2a7c"
+  integrity sha512-z6CRlKsw+ygQLuGevslmfn3CRkv/ZuZm9Jf8gFHAU61CntKZAjvOLq+NwSeUrDRf0mHUUuZHbJ566WJJkNtWIQ==
 
 "@microsoft/api-extractor-model@7.30.4":
   version "7.30.4"
@@ -5702,9 +5702,9 @@ nanoid@^3.3.8:
   integrity sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg==
 
 nanoid@^5.0.9:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.3.tgz#4ab91f7882148771526e3f0ffb87bb5af9fa71ac"
-  integrity sha512-zAbEOEr7u2CbxwoMRlz/pNSpRP0FdAU4pRaYunCdEezWohXFs+a0Xw7RfkKaezMsmSM1vttcLthJtwRnVtOfHQ==
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.6.tgz#30363f664797e7d40429f6c16946d6bd7a3f26c9"
+  integrity sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==
 
 natural-compare@^1.4.0:
   version "1.4.0"
